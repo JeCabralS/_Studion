@@ -1,0 +1,19 @@
+{
+  "name": "siteeventos",
+  "version": "0.0.1",
+  "description": "Home page for studion Events provider and services",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Jefferson Cabral Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  }
+}
