@@ -1,0 +1,46 @@
+.nav-bar {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 7.75rem;
+  background-color: $bg-color-black;
+  color: $text-color-white;
+  padding: 1rem;
+  .logo-studion {
+    font-size: 2.375rem;
+    line-height: 1ch;
+    font-weight: 900;
+    text-transform: uppercase;
+    .copy-primary {
+      color: $text-color-01;
+    }
+    .logo-studion_subtitle {
+      font-weight: 300;
+      text-align: right;
+      font-size: 0.875rem;
+      float: right;
+    }
+  }
+  .navbar_links {
+    display: flex;
+    justify-self: end;
+    padding-left: 0;
+    li {
+      font-size: 0.875rem;
+      margin-right: 3rem;
+      text-transform: uppercase;
+      a {
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: $text-color-01;
+        }
+      }
+    }
+  }
+}
